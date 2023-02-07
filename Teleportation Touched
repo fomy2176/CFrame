@@ -1,6 +1,0 @@
-script.Parent.Touched:Connect(function(hit)
-  local hitParent = hit.Parent
-  if hitParent:FindFirstChild("Humanoid") then
-    hitParent.HumanoidRootPart.CFrame = CFrame.new(--Position--)
-  end
-end)

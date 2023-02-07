@@ -1,0 +1,6 @@
+script.Parent.Touched:Connect(function(hit) --Quand touché
+  local hitParent = hit.Parent --*Parent du bras, Parent de jambe etc../
+  if hitParent:FindFirstChild("Humanoid") then --Trouver l'humanoid
+    hitParent.HumanoidRootPart.CFrame = CFrame.new(--Position--) --Téléportation
+  end --Fin de la condition
+end)-- Fin de la function
