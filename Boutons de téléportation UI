@@ -1,9 +1,9 @@
 local Character = game.Players.LocalPlayer.Character --Obtenir le character du joueur
 script.Parent["1"].MouseButton1Click:Connect(function() --function 1 click
-	Character.HumanoidRootPart.CFrame = CFrame.new(-11.119, 0.5, -179.6) --Teleporter
+	Character.HumanoidRootPart.CFrame = CFrame.new(--Position--) --Teleporter
 	workspace["1"].Highlight.Enabled = true --Activer Highlight
 end) --fin de la 1ème fonction
 script.Parent["2"].MouseButton1Click:Connect(function() --function 1 click
-	Character.HumanoidRootPart.CFrame = CFrame.new(-15.65, 0.5, -115.4) --Teleporter
+	Character.HumanoidRootPart.CFrame = CFrame.new(--Position--) --Teleporter
 	workspace["2"].Highlight.Enabled = true --Activer Highlight
 end) --fin de la 2ème fonction
